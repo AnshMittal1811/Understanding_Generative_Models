@@ -26,7 +26,7 @@ class ACGAN(object):
             self.output_height = 28
             self.output_width = 28
 
-            self.z_dim = z_dim         # dimension of noise-vector
+            self.z_dim = z_dim      # dimension of noise-vector
             self.y_dim = 10         # dimension of code-vector (label)
             self.c_dim = 1
 
